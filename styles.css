@@ -62,14 +62,14 @@ body {
     flex: 1;
     margin-right: 20px;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 35px;
     color: var(--very-dark-blue);
   }
   .article p {
     flex: 1;
     font-size: 15px;
     color: var(--dark-grayish-blue);
-    padding-top: 20px;
+    padding-top: 15px;
   }
   .article button {
     background-color: var(--soft-red);
@@ -83,38 +83,36 @@ body {
     text-transform: uppercase;
     margin-top: 20px;
   }
-  .three {
+  .news-three {
     grid-area: three;
     background-color: var(--very-dark-blue);
     color: var(--off-white);
-    padding: 30px;
+    padding: 15px;
+    height: 400px;
   }
-  .three h2 {
+  .news-three h2 {
     color: var(--soft-orange);
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 1px;
   }
-  .card {
+  .news-card {
     margin-bottom: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid var(--grayish-blue);
   }
-  .card:last-child {
+  .news-card:last-child {
     border-bottom: none;
-    margin-bottom: 0;
+    margin-bottom: 1000px;
   }
-  .card p {
+  .news-card p {
     color: var(--grayish-blue);
     font-size: 14px;
   }
-  .card h3 {
+  .news-card h3 {
     margin-bottom: 8px;
     color: var(--off-white);
     font-size: 15px;
-  }
-  .card h3:hover {
-    cursor: pointer;
-    color: var(--soft-orange);
   }
   .second-section {
     display: flex;
@@ -147,10 +145,7 @@ body {
     font-size: 14px;
     margin: 10px 0;
   }
-  .highlights .text h3:hover {
-    cursor: pointer;
-    color: var(--soft-red);
-  }
+
   .highlights .text p {
     font-size: 12px;
     color: var(--dark-grayish-blue);
